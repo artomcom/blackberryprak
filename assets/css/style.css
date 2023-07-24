@@ -53,7 +53,7 @@ hr {
     position: relative;
     
 
-    background: url("https://www.blackberrys.ru/upload/2016/03/bb_blackberry.png") center no-repeat;
+    background: url("https://static.wixstatic.com/media/61b225_85597244919a90bd89ec8ed16314168d.png/v1/fill/w_1680,h_1030,al_c,q_90,enc_auto/61b225_85597244919a90bd89ec8ed16314168d.png") center no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
 }
@@ -65,15 +65,15 @@ hr {
     
     text-align: center;
 }
-.intro__title:after {
-   
-   color: #fff;
-   font-size: 150px;
-   font-weight: 700;
-   text-transform: uppercase;
-   line-height: 1;
-
+.intro__title {
+    color: #fff;
+    font-size: 150px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 260px;
+    line-height: 1;
 }
+
 
 .intro__suptitle {
     margin-bottom: 20px;
@@ -81,7 +81,7 @@ hr {
     
     font-size: 25px;
     color: #fff;
-    padding-top: 600px;
+    padding-top: 200px;
 }
 .pdd{
     background: #43182f;
@@ -99,6 +99,7 @@ hr {
     right: 0;
     z-index: 1000;
 }
+
 
 .header.fixed {
     padding: 10px 0;
@@ -125,7 +126,7 @@ hr {
 }
 
 .header__logo {
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 700;
     color: #fff;
 }
@@ -634,10 +635,7 @@ button{
         font-size: 120px;
     }
 
-    /* Reviews */
-    .reviews__text {
-        font-size: 20px;
-    }
+   
 }
 
 @media (max-width: 990px) {
@@ -649,6 +647,10 @@ button{
 
     .intro__title {
         font-size: 80px;
+    }
+    
+    .header__logo{
+        width: 300px;
     }
 
     /* Stat */
@@ -664,6 +666,9 @@ button{
 
         border: 0;
     }
+    .stat__count {
+        font-size: 52px;
+    }
 
     .stat__item:last-child {
         border-right: 0;
@@ -678,35 +683,23 @@ button{
     .services__item--border {
         border-bottom: 0;
     }
-
-    /* Reviews */
-    .reviews .slick-slider {
-        padding: 0 60px;
+    .services__text {
+        padding-left: 105px;
+        max-width: 300px;
+    }
+    .services__title {
+        padding-left: 105px;
+        max-width: 300px;
+    }
+    .services__icon {
+        padding-left: 35px;
+        max-width: 350px;
     }
 
-    .reviews__photo {
-        width: 150px;
-        height: 150px;
-    }
 
-    .reviews__item {
-        padding-left: 175px;
-    }
+   
 
-    /* Clients */
-    .clients {
-        max-width: 600px;
-        margin: 0 auto;
-    }
-
-    .clients__item {
-        width: 100%;
-        padding-right: 0;
-    }
-
-    .clients__item:last-child {
-        margin-bottom: 0;
-    }
+   
 
 
     /* Footer */
@@ -719,22 +712,14 @@ button{
         width: 50%;
     }
 
-    /* Instagram */
-    .instagram {
-        justify-content: flex-start;
-    }
-
-    .instagram__item {
-        width: auto;
-        border-right: 1px solid white;
-    }
-}
+    
 
 @media (max-width: 770px) {
 
     /* Intro */
     .intro {
         min-height: 650px;
+       
     }
 
 
@@ -827,50 +812,7 @@ button{
 
 
    
-    /* Reviews */
-    .reviews__photo {
-        position: static;
-        margin: 0 auto 20px;
-    }
-
-    .reviews__item {
-        padding-left: 0;
-    }
-
-    .reviews__text {
-        font-size: 16px;
-    }
-
-    .reviews__author {
-        font-size: 20px;
-    }
-
-    /* Works */
-    .works {
-        flex-wrap: wrap;
-    }
-
-    .works__col {
-        flex: none;
-        width: 50%;
-    }
-
-    /* Blog */
-    .blog {
-        max-width: 380px;
-        margin: 0 auto;
-    }
-
-    .blog__item {
-        width: 100%;
-        margin-bottom: 30px;
-    }
-
-    .blog__item:last-child {
-        margin-bottom: 0;
-    }
-
-
+   
     /* Footer */
     .footer__col--second,
     .footer__col--third {
@@ -921,75 +863,7 @@ button{
     .stat__count {
         font-size: 52px;
     }
-
-
-    /* Devices */
-    .devices {
-        max-width: 320px;
-    }
-
-    .devices__item--iphone {
-        width: 180px;
-        bottom: -50px;
-        right: -80px;
-    }
-
-
-    /* Reviews */
-    .reviews .slick-slider {
-        padding: 0;
-    }
-
-    .slick-arrow {
-        top: 18%;
-    }
-
-    /* Logos */
-    .logos {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .logos__item {
-        width: 50%;
-        margin-bottom: 20px;
-    }
-
-    .logos__img {
-        margin: 0 auto;
-    }
-
-    /* Works */
-    .works__col {
-        width: 100%;
-    }
-
-
-    /* Clients */
-    .clients__photo {
-        position: static;
-    }
-
-    .clients__item {
-        padding-left: 0;
-        text-align: center;
-    }
-
-    .clients__text:before {
-        margin: 15px auto;
-    }
-
-
-    /* Blogs */
-    .blogs__img {
-        width: 80px;
-        height: 50px;
-    }
-
-    .blogs__title {
-        font-size: 10px;
-    }
-
+   
     /* Subscribe */
     .subscribe {
         flex-wrap: wrap;
@@ -1007,3 +881,4 @@ button{
     }
 
 }
+
