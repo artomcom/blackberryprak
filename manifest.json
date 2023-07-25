@@ -3,7 +3,7 @@
  "name": "BlackBerry Russia",
  "start_url": "/index.html/",
  "background_color": "#484467",
- "theme_color": "#FFFFFF",
+ "theme_color": "#484467",
  "scope":"/",
  "orientation": "any",
  "display": "standalone",
