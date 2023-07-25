@@ -20,9 +20,9 @@
    }
  ],
 
- "start_url": "/site/",
- "background_color": "#7ACCE5",
- "theme_color": "#7ACCE5",
+ "start_url": "/blackberryprak/",
+ "background_color": "#FFFFFF",
+ "theme_color": "#FFFFFF",
  "orientation": "any",
  "display": "standalone"
 }
