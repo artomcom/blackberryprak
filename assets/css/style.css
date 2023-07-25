@@ -53,7 +53,7 @@ hr {
     position: relative;
     
 
-    background: url("https://static.wixstatic.com/media/61b225_85597244919a90bd89ec8ed16314168d.png/v1/fill/w_1680,h_1030,al_c,q_90,enc_auto/61b225_85597244919a90bd89ec8ed16314168d.png") center no-repeat;
+    background: url("61b225_85597244919a90bd89ec8ed16314168d.png") center no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
 }
