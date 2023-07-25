@@ -2,7 +2,7 @@
  "short_name": "BlackBerry",
  "name": "BlackBerry Russia",
  "start_url": "/index.html/",
- "background_color": "#FFFFFF",
+ "background_color": "#484467",
  "theme_color": "#FFFFFF",
  "scope":"/",
  "orientation": "any",
