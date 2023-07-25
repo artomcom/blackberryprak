@@ -53,7 +53,7 @@ hr {
     position: relative;
     
 
-    background: url("61b225_85597244919a90bd89ec8ed16314168d.png") center no-repeat;
+    background-color: #333;
     -webkit-background-size: cover;
     background-size: cover;
 }
