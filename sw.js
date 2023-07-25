@@ -1,7 +1,7 @@
 const assetsUrl = [
   'index.html',
   'app.js',
-  'default.css',
+  '/assects/css/style.css',
   'offline.html'
 ]
 
